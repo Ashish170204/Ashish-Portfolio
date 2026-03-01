@@ -8,7 +8,7 @@ import nodejsLogo from "./assets/skills_logo/nodejs.png";
 import expressjsLogo from "./assets/skills_logo/express.png";
 import mysqlLogo from "./assets/skills_logo/mysql.png";
 import mongodbLogo from "./assets/skills_logo/mongodb.png";
-import socketioLogo from "./assets/skills_logo/Socketio.png";
+import socketioLogo from "./assets/skills_logo/socketio.png";
 
 import cLogo from "./assets/skills_logo/c.png";
 import cppLogo from "./assets/skills_logo/cpp.png";
