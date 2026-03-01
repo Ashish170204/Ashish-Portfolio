@@ -96,8 +96,8 @@ export const projects = [
       "A responsive personal portfolio website featuring a modern UI/UX and a mobile-first design approach. The platform showcases my projects, skills, education, along with social links and an easy way to connect with me via Gmail, ensuring a seamless experience across all devices.",
     image: Proj_2Logo,
     tags: ["HTML", "JavaScript", "React JS", "TailwindCss"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "https://github.com/Ashish170204/Ashish-Portfolio",
+    webapp: "https://ashish-portfolio-5zq3.vercel.app/",
   },
   {
     id: 2,
