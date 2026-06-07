@@ -20,7 +20,7 @@ const Navbar = () => {
   // Smooth scroll function
   const handleMenuItemClick = (sectionId) => {
     setActiveSection(sectionId);
-    setIsOpen(false);
+    setIsOpen(false); 
 
     const section = document.getElementById(sectionId);
     if (section) {
