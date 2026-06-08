@@ -77,7 +77,7 @@ export const projects = [
   title: "Interview Prep Platform",
   description:
     "A modern collaborative coding interview platform designed for technical interview preparation and pair programming. It features real-time code collaboration, secure authentication, live video interaction, and AI-powered guidance and practice DSA problems which improve problem-solving skills. Built with scalable MERN architecture and an interactive UI for seamless user experience.",
-  image: Proj_3Logo,
+  image: Proj_1Logo,
   tags: [
     "React JS",
     "TailwindCss",
