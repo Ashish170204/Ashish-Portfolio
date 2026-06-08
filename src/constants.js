@@ -69,14 +69,34 @@ export const SkillsInfo = [
 import Proj_1Logo from "./assets/work_logo/proj_1.png";
 import Proj_2Logo from "./assets/work_logo/proj_2.png";
 import Proj_3Logo from "./assets/work_logo/proj_3.png";
+import Proj_4Logo from "./assets/work_logo/proj_4.png";
 
 export const projects = [
   {
-    id: 0,
+  id: 0,
+  title: "Interview Prep Platform",
+  description:
+    "A modern collaborative coding interview platform designed for technical interview preparation and pair programming. It features real-time code collaboration, secure authentication, live video interaction, and AI-powered guidance and practice DSA problems which improve problem-solving skills. Built with scalable MERN architecture and an interactive UI for seamless user experience.",
+  image: Proj_3Logo,
+  tags: [
+    "React JS",
+    "TailwindCss",
+    "Node JS",
+    "Express JS",
+    "Mongo DB",
+    "Clerk Auth",
+    "Stream",
+    "Ingest",
+  ],
+  github: "https://github.com/Ashish170204/Interview-AI",
+  webapp: "https://ashish-portfolio-5zq3.vercel.app/",
+},
+  {
+    id: 1,
     title: "Real-Time Chat Application",
     description:
       "A secure real-time messaging application built with Socket.io for instant communication. It features JWT-based authentication with protected routes and role-based access control. MongoDB schemas were designed using Mongoose to efficiently manage users, chatrooms, and messages, ensuring smooth and scalable performance.",
-    image: Proj_1Logo,
+    image: Proj_2Logo,
     tags: [
       "HTML",
       "JavaScript",
@@ -90,21 +110,21 @@ export const projects = [
     webapp: "https://chat-app-mern-bpyj.onrender.com/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Personal Portfolio Website",
     description:
       "A responsive personal portfolio website featuring a modern UI/UX and a mobile-first design approach. The platform showcases my projects, skills, education, along with social links and an easy way to connect with me via Gmail, ensuring a seamless experience across all devices.",
-    image: Proj_2Logo,
+    image: Proj_3Logo,
     tags: ["HTML", "JavaScript", "React JS", "TailwindCss"],
     github: "https://github.com/Ashish170204/Ashish-Portfolio",
     webapp: "https://ashish-portfolio-5zq3.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Real-Time Location Tracker",
     description:
       "A real-time location-sharing web application that enables live tracking with instant updates using Socket.io. The backend was developed with Node.js and Express.js to handle seamless data communication. Integrated Leaflet.js with OpenStreetMap to provide interactive maps and accurate live location visualization for a smooth user experience.",
-    image: Proj_3Logo,
+    image: Proj_4Logo,
     tags: ["Node JS", "Express JS", "Socket IO", "Leaflet JS", "OpenStreetMap"],
     github: "https://github.com/Ashish170204/Real-Time-Tracker",
     webapp: "https://real-time-tracker-2.onrender.com/",
